@@ -46,3 +46,4 @@ import { writable } from 'svelte/store'
 export default writable(0)
 ```
 # Mars-Rover
+# Mars-Rover2
