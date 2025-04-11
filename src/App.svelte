@@ -1,6 +1,6 @@
 <script>
   import viteLogo from '/vite.svg';
-  import svelte from './svelte.svg'
+  import svelte from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
 </script>
 
