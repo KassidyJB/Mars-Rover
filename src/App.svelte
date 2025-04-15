@@ -1,7 +1,6 @@
 <script>
   import viteLogo from '/vite.svg';
-  import svelte from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  
 </script>
 
 <main>
@@ -13,10 +12,12 @@
       <img src={svelte} class="logo" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
+  <h1>Mars Rover Project<h1>
 
   <div class="card">
-    <Counter />
+  <+About>
+  <+Rovers>
+  <+Photos>
   </div>
 
   <p>
