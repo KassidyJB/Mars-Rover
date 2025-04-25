@@ -12,7 +12,7 @@
 		max-width: 800px; /* Limits the width of the main area */
 		margin: 2rem auto; /* Centers the main area with vertical spacing */
 		padding: 2rem; /* Adds space inside the main area */
-		background: #fffbe7; /* Sets a light background color */
+		background:rgb(234, 226, 187); /* Sets a light background color */
 		border-radius: 12px; /* Rounds the corners */
 		border: 2px solid #f9d423; /* Adds a yellow border */
 	}

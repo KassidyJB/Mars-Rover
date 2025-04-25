@@ -1,3 +1,5 @@
+import Search from "./routes/Search.svelte";
+
 <script>
 const roverOptions = [
     { value: 'all', name: 'All Rovers' },
