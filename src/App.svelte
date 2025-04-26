@@ -1,22 +1,21 @@
 <script>
   import { Router, Route } from "svelte-routing";
-  import LearnMore from "./routes/LearnMore.svelte";
   import About from "./routes/About.svelte";
-  import Rovers from "./routes/Rovers.svelte";
+  import Rovers from "./routes/Search.svelte";
+  import LearnMore from "./routes/LearnMore.svelte";
 </script>
 
 <Router>
   <nav>
-    <a href="/Learn More">Learn More</a>
     <a href="/About">About</a>
-    <a href="/Search">Photo Search</a>
-
+    <a href="/Rovers">Photo Search</a>
+    <a href="/LearnMore">Learn More</a>
   </nav>
 
   <div>
-    <Route path="/LearnMore" component={LearnMore} />
     <Route path="/About" component={About} />
     <Route path="/Rovers" component={Rovers} />
+    <Route path="/LearnMore" component={LearnMore} />
   </div>
 </Router>
 
@@ -32,4 +31,5 @@
   Click one of the tab options above for more!
   </p>
 </main>
+
 
