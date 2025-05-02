@@ -1,4 +1,4 @@
-import Search from "./routes/Search.svelte";
+
 
 <script>
 const roverOptions = [
@@ -29,7 +29,7 @@ let selectedCamera = 'all';
 let startDate = '';
 let endDate = '';
 
-funtion getLast7Days() {
+Funtion getLast7Days() {
     const today = new Date();
     const lastWeek = new Date(today);
     lastWeek.setDate(today.getDate() - 6);
@@ -50,7 +50,7 @@ async function fetchPhotos() {
             let url = 
 `https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/latest_photos?api_key=${import.meta.env.VITE_NASA_API_KEY}`;
             if (selectedCamera !== 'all') {
-                url += `&camera=${sleectedCamera}`;
+                url += `&camera=${selectedCamera}`;
             }
             const res = await fetch(url);
             const data = await res.json();
